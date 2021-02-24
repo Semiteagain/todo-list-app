@@ -171,6 +171,7 @@ main {
   column-gap: 0.75rem;
   margin-bottom: 1.5rem;
   align-items: center;
+  text-align: center;
 }
 
 .list-event h4 {

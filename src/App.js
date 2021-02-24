@@ -22,11 +22,13 @@ function App() {
    }
 
   return (
-    <div className="App">
-      Add item ... 
+    <div className="main">
+      <div className="container">
+        <h3> Add item ... </h3>
+     
       <br />
 
-      <input
+      <input className='list-event'
         type='text'
         placeholder = 'Add new Item here'
         value={addText}
@@ -36,12 +38,14 @@ function App() {
       <button onClick={addItem}>Add Items</button>
 
       <div>
-        <ul>
+        <ul className='list-event'>
               {items.map((newItem) =>{
                 return <li>{newItem}</li>
               })}
         </ul>
       </div>
+      </div>
+     
     </div>
 
   );
