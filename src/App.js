@@ -1,5 +1,6 @@
 
 import React, {useState} from 'react';
+import Practice from './components/Practice'
 
 function App() {
 
@@ -45,9 +46,9 @@ function App() {
         </ul>
       </div>
       </div>
-     
+       <Practice />
     </div>
-
+      
   );
 }
 
